@@ -1,0 +1,12 @@
+{
+  "name": "ts-commonjs-dir",
+  "version": "1.0.0",
+  "description": "",
+  "private": "true",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc -p ."
+  },
+  "author": "",
+  "license": "ISC"
+}
