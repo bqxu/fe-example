@@ -1,11 +1,11 @@
 {
-  "name": "babel-js",
+  "name": "babel-ts",
   "version": "1.0.0",
   "description": "",
   "private": "true",
   "main": "index.js",
   "scripts": {
-    "build": "babel src -d build"
+    "build": "babel src --extensions \".ts\" -d build"
   },
   "author": "",
   "license": "ISC",
@@ -14,6 +14,8 @@
     "@babel/core": "^7.17.9"
   },
   "dependencies": {
-    "@babel/preset-env": "^7.16.11"
+    "@babel/plugin-transform-typescript": "^7.16.8",
+    "@babel/preset-env": "^7.16.11",
+    "@babel/preset-typescript": "^7.16.7"
   }
 }
